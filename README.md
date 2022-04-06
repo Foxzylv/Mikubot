@@ -1,6 +1,6 @@
 # Mikubot
 
-This bot will respond to things with the word pizza, thats it
+This bot will respond to miku things (>_<)
 
 # Invite link
 
