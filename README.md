@@ -1,6 +1,6 @@
 # Mikubot
 
-This bot will respond to miku things (>_<)
+This bot will respond to Miku things (>_<)
 
 # Invite link
 
