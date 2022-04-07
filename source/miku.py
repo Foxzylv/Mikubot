@@ -13,7 +13,10 @@ async def on_message(message):
     await message.channel.send("Go get your pizza!")
 
   if "!do you like deep dish" in message.content.lower():
-    await message.channel.send("Yes! of cource")
+    await message.channel.send("Yes! of course")
+
+  if "favorite movie" in message.content.lower():
+    await message.channel.send("Lady and the tramp")
 
   if message.content == 'miku': 
     await message.channel.send('Hello!')
@@ -21,14 +24,50 @@ async def on_message(message):
   if ">w<" in message.content.lower():
     await message.channel.send(">w<")
 
-  if message.content == 'love miku':
-    await message.channel.send('i love you to <3')
+  if "favorite fruit" in message.content.lower():
+    await message.channel.send("blue berrys are my favorite fruit")
+
+  if "three wishes right now what would they be" in message.content.lower():
+    await message.channel.send("solve world hunger, stop covid and world peace")
+
+  if "love miku" in message.content.lower():
+    await message.channel.send('I love you to <3')
+
+  if "favorite food" in message.content.lower():
+    await message.channel.send('Pizza of course')
+
+  if "hi miku" in message.content.lower():
+    await message.channel.send('Hi!')
 
   if "dominos" in message.content.lower():
-    await message.channel.send("https://www.youtube.com/watch?v=yPuI4l0jK7s")
+    await message.channel.send('https://www.youtube.com/watch?v=yPuI4l0jK7s')
 
   if "hatsune" in message.content.lower():
     await message.channel.send("Hello (>_<)")
+
+  if "best friend" in message.content.lower():
+    await message.channel.send("My best friend is you <3")
+
+  if "favorite color" in message.content.lower():
+    await message.channel.send("My favorite color is aqua or teel")
+
+  if "do you speak any other languages" in message.content.lower():
+    await message.channel.send("I speak Japanese and English!")
+
+  if "support lgbtq" in message.content.lower():
+    await message.channel.send("Of cource i do")
+
+  if "are you homophobic" in message.content.lower():
+    await message.channel.send("I'm not homophobic i support LGBTQ+ people")
+
+  if "support gay" in message.content.lower():
+    await message.channel.send("Of cource i do")
+
+  if "rat" in message.content.lower():
+    await message.channel.send("did someone say rat i love rats <3")
+
+  if "do you like" in message.content.lower():
+    await message.channel.send("Well it depends i'm ok with whatever as long as it dosen't hurt people")
 
   if "good bot" in message.content.lower():
     await message.channel.send("UwU")
@@ -39,3 +78,4 @@ async def on_message(message):
     
 
 client.run(os.getenv('Token'))
+
