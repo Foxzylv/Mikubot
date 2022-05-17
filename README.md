@@ -2,6 +2,10 @@
 
 This bot will respond to Miku things (>_<)
 
+# Reason for making this
+
+Well I was bored and wanted to make somthing to amuse a friend of mine.
+
 # Invite link
 
 https://discord.com/api/oauth2/authorize?client_id=961003234594529280&permissions=137439218752&scope=bot
