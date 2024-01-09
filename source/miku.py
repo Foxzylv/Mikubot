@@ -25,7 +25,7 @@ async def on_message(message):
     await message.channel.send(">w<")
 
   if "favorite fruit" in message.content.lower():
-    await message.channel.send("blue berrys are my favorite fruit")
+    await message.channel.send("blueberries are my favorite fruit")
 
   if "three wishes right now what would they be" in message.content.lower():
     await message.channel.send("solve world hunger, stop covid and world peace")
