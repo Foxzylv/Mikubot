@@ -13,7 +13,7 @@ async def on_message(message):
     await message.channel.send("Go get your pizza!")
 
   if "do you like deep dish" in message.content.lower():
-    await message.channel.send("Miku loves deep dish pizza)
+    await message.channel.send("Miku loves deep dish pizza")
 
   if "favorite movie" in message.content.lower():
     await message.channel.send("Lady and the tramp")
