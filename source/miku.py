@@ -31,7 +31,7 @@ async def on_message(message):
     await message.channel.send("solve world hunger, stop covid and world peace")
 
   if "love miku" in message.content.lower():
-    await message.channel.send('I love you to <3')
+    await message.channel.send('I love you too <3')
 
   if "favorite food" in message.content.lower():
     await message.channel.send('Pizza of course')
@@ -54,20 +54,20 @@ async def on_message(message):
   if "do you speak any other languages" in message.content.lower():
     await message.channel.send("I speak Japanese and English!")
 
-  if "support lgbtq" in message.content.lower():
-    await message.channel.send("Of cource i do")
+  if "miku","support lgbtq" in message.content.lower():
+    await message.channel.send("Of cource I do")
 
   if "are you homophobic" in message.content.lower():
-    await message.channel.send("I'm not homophobic i support LGBTQ+ people")
+    await message.channel.send("I'm not homophobic I support LGBTQ+ people")
 
   if "support gay" in message.content.lower():
-    await message.channel.send("Of cource i do")
+    await message.channel.send("Of cource I do")
 
   if "rat" in message.content.lower():
-    await message.channel.send("did someone say rat i love rats <3")
+    await message.channel.send("did someone say rat I love rats <3")
 
   if "do you like" in message.content.lower():
-    await message.channel.send("Well it depends i'm ok with whatever as long as it dosen't hurt people")
+    await message.channel.send("Well it depends I'm ok with whatever as long as it dosen't hurt people")
 
   if "good bot" in message.content.lower():
     await message.channel.send("UwU")
